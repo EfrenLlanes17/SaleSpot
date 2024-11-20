@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductPage"
+    android:background="#FFFFFF">
+
+
+            <ImageView
+                android:id="@+id/txtPPImage"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_launcher_round"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/txtPPName"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPPImage"
+                android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+
+                android:text="Product Name"
+                android:textColor="#000000"
+
+                android:textSize="35dp"
+                android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="________________________"
+        android:textSize="40dp"
+        android:textColor="#FE8D9E"
+        android:layout_marginTop="350dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/coupon2"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/txtPPDiscription"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPPName"
+
+        android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+        android:text="Product Discription"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/sitePPButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toLeftOf="@id/followPPButton"
+        android:backgroundTint="#FF8E9F"
+        android:text="VISIT SITE"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/followPPButton"
+        android:text="FOLLOW SELLER"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF8E9F"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savePPButton"
+        android:text=""
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#FF8E9F"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/followPPButton"
+        />
+
+
+
+
+
+            <TextView
+                android:id="@+id/txtPPPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+
+                android:text="Product Price"
+
+                android:textSize="40dp"/>
+
+
+
+            <TextView
+                android:id="@+id/txtPPPercentOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentRight="true"
+
+                android:fontFamily="@font/notoserifvithkuqivariablefontwght"
+                android:textStyle="bold"
+
+
+                android:text="Product %"
+
+                android:textSize="35dp"/>
+
+
+
+</RelativeLayout>
